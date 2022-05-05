@@ -1,0 +1,183 @@
+
+
+
+
+.ul-nav-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.534);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+
+  }
+
+
+.li-nav-menu {
+    float: left;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+.li-nav-menu a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .li-nav-menu a:hover {
+    background-color: #111111;
+  }
+
+.btn-enviar{
+  cursor: pointer;
+}
+
+.form-contacto{
+  padding: 15px;
+  margin:25px;
+  border-radius: 7px;
+  border: solid grey 0.5px;
+  font-family: 'Poppins', sans-serif;
+
+} 
+
+.form-nico{
+font-weight: bold;
+text-align: center;
+}
+
+.contacto-direccion{
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.contacto-telefono{
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+
+  
+}
+.contacto-email{
+  font-family: 'Poppins', sans-serif;
+  font-style: italic;
+}
+
+.negro{
+  background-color: black;
+}
+
+ul{
+  color: black;
+  background-color: grey;
+}
+
+form{
+background-color: black;
+color: rgb(255, 255, 255);
+  
+}
+
+footer{ 
+  display: flex;
+  background-color: grey;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  
+
+}
+body{ 
+  background-color:  grey; 
+  font-family: 'Poppins', sans-serif
+}
+
+h1{ 
+  font-optical-sizing: 50px;
+  color: rgb(247, 124, 80);
+  font-family: 'Poppins', sans-serif
+  
+}
+
+p{
+  color: black;
+  background-color: rgb(247, 124, 80);
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif
+   }
+  
+
+.portada{
+  display: flex;
+  background-image: url(../recursos/fondoposta1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+
+}
+.portada_texto{
+
+
+width: 300px;
+height: 238px;
+left: 0px;
+top: 51px;
+
+
+
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line: height 40px;
+
+text-align: center;
+text-transform: uppercase;
+font-family: 'Poppins', sans-serif;
+}
+
+.boton_index{
+
+color: rgb(0, 0, 0);
+background-color: rgb(247, 124, 80);
+padding: 10px;
+width: 100px;
+height: 40px;
+font-weight: 400;
+border-radius: 30px;
+font-family: 'Poppins', sans-serif;
+align-content: center;
+
+
+}
+
+.parrafo{
+
+  margin: 1rem;
+  padding: 1rem;
+  padding-left: 1rem;
+
+}
+
+.imagendj{
+  
+margin-left: 10rem;
+
+
+
+}
+
+.logo_index{
+  height: 30px;
+  padding-left: 50px;
+}
