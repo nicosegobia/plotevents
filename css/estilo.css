@@ -1,4 +1,7 @@
+.grid-container{
+  display: grid
 
+}
 
 
 
@@ -118,7 +121,7 @@ p{
 
 .portada{
   display: flex;
-  background-image: url(../recursos/fondoposta1.jpg);
+  background-image: url(../recursos/galaxy5.gif);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
