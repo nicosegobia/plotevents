@@ -118,6 +118,20 @@ p{
   font-family: 'Poppins', sans-serif
    }
   
+.bg-white{
+
+  color: white;
+}
+
+  
+
+
+.menu-color{
+  
+  
+  color: white;
+  
+}
 
 .portada{
   display: flex;
