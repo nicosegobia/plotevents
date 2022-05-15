@@ -4,43 +4,6 @@
 }
 
 
-
-.ul-nav-menu{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.534);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Poppins', sans-serif;
-
-  }
-
-
-.li-nav-menu {
-    float: left;
-    font-family: 'Poppins', sans-serif;
-
-  }
-  
-.li-nav-menu a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-  text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
-
-  }
-  
-  .li-nav-menu a:hover {
-    background-color: #111111;
-    font-family: 'Poppins', sans-serif;
-  }
-
 .btn-enviar{
   cursor: pointer;
 }
@@ -100,8 +63,10 @@ footer{
 
 }
 body{ 
+  color: black;
   background-color:  grey; 
   font-family: 'Poppins', sans-serif
+
 }
 
 h1{ 
@@ -113,7 +78,7 @@ h1{
 
 p{
   color: black;
-  background-color: rgb(247, 124, 80);
+  background-color: rgba(206, 68, 13, 0.705);
   font-weight: 900;
   font-family: 'Poppins', sans-serif
    }
@@ -123,13 +88,11 @@ p{
   color: white;
 }
 
-  
 
-
-.menu-color{
+.link-nav{
   
-  
-  color: white;
+  font: 700;
+  color: black;
   
 }
 
@@ -202,5 +165,6 @@ margin-left: 10rem;
 }
 
 div {
+  color: black;
   font-family: 'Poppins', sans-serif;
 }
