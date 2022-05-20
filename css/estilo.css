@@ -45,7 +45,7 @@ text-align: center;
 
 ul{
   color: black;
-  background-color: grey;
+
 }
 
 form{
@@ -81,18 +81,23 @@ p{
   font-weight: 900;
   font-family: 'Poppins', sans-serif
    }
-  
-.bg-white{
 
-  color: white;
-}
 
 
 .link-nav{
   
   font: 700;
-  color: black;
-  
+  color: white;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+
+
+}
+
+.link-nav:hover{
+
+  color: red;
 }
 
 .portada{
@@ -162,8 +167,7 @@ div {
 
 .menu__color{ 
 
-  color: black;
   font-weight: 500;
-  background-color: white;
+  
 }
 
