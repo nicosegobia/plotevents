@@ -23,18 +23,21 @@
   }
   
   .contacto-direccion{
+    color: white;
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
   
   }
   
   .contacto-telefono{
+    color: white;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
   
     
   }
   .contacto-email{
+    color: white;
     font-family: 'Poppins', sans-serif;
     font-style: italic;
   }
@@ -44,13 +47,12 @@
   }
   
   ul{
-    color: black;
-    background-color: grey;
+    background-color: white;
   }
   
   form{
-  background-color: black;
-  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(240, 21, 21);
     
   }
   
@@ -91,7 +93,7 @@
   .link-nav{
     
     font: 700;
-    color: black;
+    color: rgb(240, 234, 234);
     
   }
   
