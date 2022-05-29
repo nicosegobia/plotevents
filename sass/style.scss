@@ -1,172 +1,135 @@
-.grid-container{
-    display: grid
+@import 'variables';
+@import 'header';
+@import 'footer';
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.grid-container {
+  display: grid; }
+
+.btn-enviar {
+  cursor: pointer; }
+
+.form-contacto {
+  padding: 15px;
+  margin: 25px;
+  border-radius: 7px;
+  border: solid grey 0.5px;
+  font-family: 'Poppins', sans-serif; 
+  .form-nico {
+    font-weight: bold;
+    text-align: center; }
   
-  }
-  
-  
-  .btn-enviar{
-    cursor: pointer;
-  }
-  
-  .form-contacto{
-    padding: 15px;
-    margin:25px;
-    border-radius: 7px;
-    border: solid grey 0.5px;
-    font-family: 'Poppins', sans-serif;
-  
-  } 
-  
-  .form-nico{
-  font-weight: bold;
-  text-align: center;
-  }
-  
-  .contacto-direccion{
+}
+
+
+
+
+
+
+.negro {
+  background-color: black; }
+
+ul {
+  background-color: rgb(32, 32, 32);
+  .contacto-direccion {
     color: white;
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; }
   
-  }
-  
-  .contacto-telefono{
+  .contacto-telefono {
     color: white;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; }
   
-    
-  }
-  .contacto-email{
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-style: italic;
-  }
-  
-  .negro{
-    background-color: black;
-  }
-  
-  ul{
-    background-color: white;
-  }
-  
-  form{
-  background-color: rgb(255, 255, 255);
-  color: rgb(240, 21, 21);
-    
-  }
-  
-  footer{ 
-    display: flex;
-    background-color: grey;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-    
-  
-  }
-  body{ 
+  .contacto-email {
     color: rgb(255, 255, 255);
-    background-color:  rgb(0, 0, 0); 
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+    font-style: italic; }
   
-  }
-  
-  h1{ 
-    font-optical-sizing: 50px;
-    color: rgb(247, 124, 80);
-    font-family: 'Poppins', sans-serif
-    
-  }
-  
-  p{
-    color: white;
-    font-weight: 900;
-    font-family: 'Poppins', sans-serif
-     }
-    
-  .bg-white{
-  
-    color: white;
-  }
-  
-  
-  .link-nav{
-    
-    font: 700;
-    color: rgb(240, 234, 234);
-    
-  }
-  
-  .portada{
-    background-image: url(../recursos/REDES_11.png);
-    display: flex;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
-    justify-content: center;
-    align-items: center;
-  
-  
-  }
-  .portada_texto{
-  
-  
+ }
+
+form {
+  background-color: white;
+  color: #f01515; }
+
+footer {
+  display: flex;
+  background-color: grey;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800; }
+
+body {
+  color: white;
+  background-color: black;
+  font-family: 'Poppins', sans-serif; }
+
+h1 {
+  font-optical-sizing: 50px;
+  color: #f77c50;
+  font-family: 'Poppins', sans-serif; }
+
+p {
+  color: white;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif; }
+
+.bg-white {
+}
+
+.link-nav {
+  font: 700;
+  color: white;
+  text-decoration: dashed;
+  background-color: blacj;
+}
+
+.portada {
+  background-image: url(../recursos/REDES_11.png);
+  display: flex;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  justify-content: center;
+  align-items: center; }
+
+.portada_texto {
   width: 300px;
   height: 238px;
   left: 0px;
   top: 51px;
-  
-  
-  
   font-style: normal;
   font-weight: 600;
   font-size: 30px;
- 
-  
   text-align: center;
   text-transform: uppercase;
-  font-family: 'Poppins', sans-serif;
-  }
-  
-  
-  .parrafodj{
-    color: white;
-    background-color:none;
-    margin: 1rem;
-    padding: 1rem;
-    padding-left: 1rem;
-  
-  }
-  
-  .h3dj{
-  
+  font-family: 'Poppins', sans-serif; }
+
+.parrafodj {
   color: white;
-  
-  }
-  .imagendj{
-    
-  margin-left: 10rem;
-  
-  
-  
-  }
-  
-  .logo_index{
-    height: 30px;
-    padding-left: 50px;
-  }
-  
-  div {
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .menu__color{ 
-  
-    color: black;
-    font-weight: 500;
-    background-color: white;
-  }
-  
-  
+  background-color: none;
+  margin: 1rem;
+  padding: 1rem;
+  padding-left: 1rem; }
+
+.h3dj {
+  color: white; }
+
+.imagendj {
+  margin-left: 10rem; }
+
+.logo_index {
+  height: 30px;
+  padding-left: 50px; }
+
+div {
+  font-family: 'Poppins', sans-serif; }
+
+.menu__color {
+  color: black;
+  font-weight: 500;
+  background-color: white; }

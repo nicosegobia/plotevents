@@ -1,106 +1,73 @@
-.grid-container{
-  display: grid
+* {
+  margin: 0;
+  padding: 0; }
 
-}
+.grid-container {
+  display: grid; }
 
+.btn-enviar {
+  cursor: pointer; }
 
-.btn-enviar{
-  cursor: pointer;
-}
-
-.form-contacto{
+.form-contacto {
   padding: 15px;
-  margin:25px;
+  margin: 25px;
   border-radius: 7px;
   border: solid grey 0.5px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif; }
+  .form-contacto .form-nico {
+    font-weight: bold;
+    text-align: center; }
 
-} 
+.negro {
+  background-color: black; }
 
-.form-nico{
-font-weight: bold;
-text-align: center;
-}
+ul {
+  background-color: #202020; }
+  ul .contacto-direccion {
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif; }
+  ul .contacto-telefono {
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif; }
+  ul .contacto-email {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic; }
 
-.contacto-direccion{
-  text-transform: capitalize;
-  font-family: 'Poppins', sans-serif;
+form {
+  background-color: white;
+  color: #f01515; }
 
-}
-
-.contacto-telefono{
-  font-weight: bold;
-  font-family: 'Poppins', sans-serif;
-
-  
-}
-.contacto-email{
-  font-family: 'Poppins', sans-serif;
-  font-style: italic;
-}
-
-.negro{
-  background-color: black;
-}
-
-ul{
-  color: rgb(255, 255, 255);
-
-}
-
-form{
-background-color: black;
-color: rgb(255, 255, 255);
-  
-}
-
-footer{ 
+footer {
   display: flex;
   background-color: grey;
   font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-  
+  font-weight: 800; }
 
-}
-body{ 
-  color: rgb(255, 255, 255);
-  background-color:  rgb(0, 0, 0); 
-  font-family: 'Poppins', sans-serif
+body {
+  color: white;
+  background-color: black;
+  font-family: 'Poppins', sans-serif; }
 
-}
-
-h1{ 
+h1 {
   font-optical-sizing: 50px;
-  color: rgb(247, 124, 80);
-  font-family: 'Poppins', sans-serif
-  
-}
+  color: #f77c50;
+  font-family: 'Poppins', sans-serif; }
 
-p{
+p {
   color: white;
   font-weight: 900;
-  font-family: 'Poppins', sans-serif
-   }
+  font-family: 'Poppins', sans-serif; }
 
-
-
-.link-nav{
-  
+.link-nav {
   font: 700;
   color: white;
-  display: block;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
+  text-decoration: dashed;
+  background-color: blacj; }
 
-
-}
-
-.link-nav:hover{
-
-  color: red;
-}
-
-.portada{
+.portada {
   background-image: url(../recursos/REDES_11.png);
   display: flex;
   background-attachment: fixed;
@@ -109,65 +76,41 @@ p{
   background-size: cover;
   height: 700px;
   justify-content: center;
-  align-items: center;
+  align-items: center; }
 
+.portada_texto {
+  width: 300px;
+  height: 238px;
+  left: 0px;
+  top: 51px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif; }
 
-}
-.portada_texto{
-
-
-width: 300px;
-height: 238px;
-left: 0px;
-top: 51px;
-
-
-
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-
-
-text-align: center;
-text-transform: uppercase;
-font-family: 'Poppins', sans-serif;
-}
-
-
-.parrafodj{
+.parrafodj {
   color: white;
-  background-color:none;
+  background-color: none;
   margin: 1rem;
   padding: 1rem;
-  padding-left: 1rem;
+  padding-left: 1rem; }
 
-}
+.h3dj {
+  color: white; }
 
-.h3dj{
+.imagendj {
+  margin-left: 10rem; }
 
-color: white;
-
-}
-.imagendj{
-  
-margin-left: 10rem;
-
-
-
-}
-
-.logo_index{
+.logo_index {
   height: 30px;
-  padding-left: 50px;
-}
+  padding-left: 50px; }
 
 div {
-  font-family: 'Poppins', sans-serif;
-}
+  font-family: 'Poppins', sans-serif; }
 
-.menu__color{ 
-
+.menu__color {
+  color: black;
   font-weight: 500;
-  
-}
-
+  background-color: white; }
